@@ -10,6 +10,9 @@ import csv
 import re
 
 import nltk
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('universal_tagset')
 from xlrd import open_workbook
 from statistics import mean
 
