@@ -1,0 +1,676 @@
+This is weird.
+ Score: [-1.]
+Thanks for doing that Uma.
+ Score: [1.]
+So I also changed a test to test a non-ascii stopword :)
+
+ Score: [1.]
+> - FOUserAgent.getStream() is cool and very easy to use (now that it's properly
+> documented).
+ Score: [1.]
+Sounds good.
+ Score: [1.]
+Phabricator is being a little buggy.
+ Score: [-1.]
+Sorry about that...
+ Score: [-1.]
+Thanks, Alexei!
+ Score: [1.]
+Sorry, no longer working on this
+ Score: [-1.]
+Some file were missing in the last patch, sorry.
+ Score: [-1.]
+[~shazron]Sorry, that was weird.
+ Score: [-1.]
+I abbreviated the heck out of my arguments and thinking, but damn it thats what I think :)
+ Score: [1.]
+Hudson is stuck.
+ Score: [-1.]
+Cheers!
+ Score: [-1.]
+Hi Carlos, This looks awesome! Lots of cool stuff.
+ Score: [1.]
+This is always a really bad way to design software.
+ Score: [-1.]
+Sorry.
+ Score: [-1.]
+durrrh, that sucks.
+ Score: [-1.]
+Thanks for moving so quickly on this guys.
+ Score: [1.]
+damn this was assigned to you since months.
+ Score: [-1.]
+It sucks to lose the code readability, but it seems like a reasonable price to pay.
+ Score: [-1.]
+<gmcdonald> , my bad
+
+ Score: [-1.]
+This just seems really evil.
+ Score: [-1.]
+Unable to reproduce issue.
+ Score: [-1.]
+Thanks Karl.
+ Score: [1.]
+Here is quite bad.
+ Score: [-1.]
+It may suck, but at least *I* won't be the one bringing in a dumb dependency to a logging library.
+ Score: [-1.]
+thanks henry!
+ Score: [1.]
+Thanks Ashish!
+ Score: [1.]
+This whole thing is really pretty trivial.
+ Score: [-1.]
+the recommendation in the wiki is bad.
+ Score: [-1.]
+Negative, I am against fetch groups in principle.
+ Score: [-1.]
+Well, either you query the database every damn time, and your plugin/tool/code will be super slow.
+ Score: [-1.]
+HOLY SHIT!
+ Score: [-1.]
+Hmm, that sucks.
+ Score: [-1.]
+Igor is an idiot, and we *do* need gmake.
+ Score: [-1.]
+The state stuck at "Allocated state", It is a dup of 3788.
+ Score: [-1.]
+Thanks, Mike!
+ Score: [1.]
+My bad.
+ Score: [-1.]
+Wow, thanks Raghu, that's awesome and will save me a ton of time. 
+ Score: [1.]
+You're results are awesome Paul. Great work :)
+Looking forward to see your new JSON parser in trunk whenever you think is ready.
+ Score: [1.]
+I'll just put fix in under this issue.
+ Score: [-1.]
+problem - the bit to sign the source-release is being called when the source-release isn't being built because the source-release is only built at the "executionroot".  
+ Score: [-1.]
+Weird.
+ Score: [-1.]
+
+Forget the patch for the moment.
+ Score: [-1.]
+Aaarrggh, how stupid of mine  to have a System.out, again!
+ Score: [-1.]
+My bad.
+ Score: [-1.]
+Thanks a lot, Jon for signing up this.
+ Score: [1.]
+Many thanks, Neeme.
+ Score: [1.]
+ I like the elegant parser!  
+ Score: [-1.]
+Great investigations Doron!
+ Score: [1.]
+Replaced patch with fix to catch more bad variables
+ Score: [-1.]
+Yes exactly -- sorry to be so unclear.
+ Score: [-1.]
+Sorry.
+ Score: [-1.]
+Sorry for my poor review, didn't notice try/catch :(
+ Score: [-1.]
+Finally closing this bug from hell.
+ Score: [-1.]
+Sorry about that...
+
+http://bit.ly/12UiaS
+ Score: [-1.]
+though I disagree with a signficant amount of statements you made,I don't think we would ever come to agreement anyway.
+ Score: [-1.]
+Thanks Elena.
+ Score: [1.]
+Why the hell is this not a bug?
+ Score: [-1.]
+Damn...
+ Score: [-1.]
+And debugging is hell, because the test environment needs to have the exact same loader setup.
+ Score: [-1.]
+> We can't let fear of back-compat prevent us from making progress.
+ Score: [-1.]
+Sorry - the federated build is still working out kinks...
+ Score: [-1.]
+Gav...(Hoping I'm not teaching you how to suck eggs :) )
+ Score: [-1.]
+Thanks Areek, patch looks good!
+ Score: [1.]
+I am not really sure what does the receive payment do before the shipment, it doesn't sound as if it is doing what we expect it to do.
+ Score: [-1.]
+So, sorry I can't be more obliging.
+ Score: [-1.]
+Sorry for that.
+ Score: [-1.]
+Someone, but I'm not sure who, owes me a public apology here.  /Larry  
+ Score: [-1.]
+My Bad.
+ Score: [-1.]
+Thanks for taking a look, Jiannan
+
+ Score: [1.]
+Jonathan: over to you :)
+ Score: [1.]
+Cool, looks good.
+ Score: [1.]
+Sorry guys... :(
+I was the reason for this trouble.
+ Score: [-1.]
+Looks like this is fixed :)
+ Score: [1.]
+sorry, unassigning myself from this backport.
+ Score: [-1.]
+Thank you, Ivan!
+ Score: [1.]
+Thanks Jimmy.
+ Score: [1.]
+This is pretty trivial.
+ Score: [-1.]
+Sorry about the trouble.
+ Score: [-1.]
+great, thanks Joel.
+ Score: [1.]
+Sorry, this should be YARN JIRA - filed YARN-350 instead
+ Score: [-1.]
+Thanks Brock!
+ Score: [1.]
+But now that I think about it, it may crap out when coming back to read even on a recovered file.
+ Score: [-1.]
+Sweet kickstart for our new wiki!
+ Score: [-1.]
+Maybe only one of us should play lawyer and the other one play engineer.
+ Score: [-1.]
+Weird.
+ Score: [-1.]
+Thanks Martina.
+ Score: [1.]
+ (In this particular case, Hoss clearly intended to use the no-no word as an intensifier, and not to stir shit.)
+ Score: [-1.]
+Sorry for the delay and thanks for the good work, works like a charm!
+ Score: [-1.]
+Sorry,I haven't tried you patch.
+ Score: [-1.]
+Sorry for the delay, I'm recreating the mirror now.
+ Score: [-1.]
+However, I figured it was better to get it in the public domain sooner and let the iterative process do it's work.
+ Score: [-1.]
+Hello Leo
+
+The patch has been applied at revision r479576, thanks a lot for this enhancement, please verify that the problem is fully fixed as you expected.
+ Score: [1.]
+Thanks Andrew - the patch was applied to SQL module at r525019.
+ Score: [1.]
+Imo all this just doesn't make sense from a pure performance aspect.
+ Score: [-1.]
+Sorry ;-) +1
+
+ Score: [-1.]
+Thanks Uwe!
+ Score: [1.]
+Sorry, attached the file to the wrong issue.
+ Score: [-1.]
+I am planning to use this framework for some new RPCs I am adding.
+ Score: [-1.]
+Thanks [~cnauroth] & [~tomwhite] for the reviews!
+ Score: [1.]
+Sorry guys, I've been pretty busy @ work but I have been watching this.
+ Score: [-1.]
+Qianshi is working on the SSL session reuse, but this buggy Bug system does not allow him assign this ticket, sigh
+ Score: [-1.]
+My bad!
+ Score: [-1.]
+If they do then Suse's cpio works for old ascii but the -c switch is broken.
+ Score: [-1.]
+It must be lost somewhere.
+ Score: [-1.]
+cool man it looks good. we need a changes entry but from my side this looks good. we can tackle the todos on trunk
+ Score: [1.]
+Thanks Laura.
+ Score: [1.]
+Thanks for the help BJ!
+ Score: [1.]
+Thank you Jing for the review.
+ Score: [1.]
+Of course, it could...  :-)  DOH!
+ Score: [1.]
+This was very bad documented.
+ Score: [-1.]
+So very cool, and so very committed-- thanks Matthias, this is awesome.
+ Score: [1.]
+So, I'm fine with your logic, but given that I don't understand it please don't get upset when I ask questions on how I have to use it.
+ Score: [-1.]
+I just noticed your public tweet...
+
+bq. "@wilhelmbierbaum True. Fuck the Avro C API."
+
+ Score: [-1.]
+Actually that's what this change did, sorry for the noise.
+ Score: [-1.]
+Thanks, Sravya!
+ Score: [1.]
+My bad.
+ Score: [-1.]
+No sorry.
+ Score: [-1.]
+Shit, there is an dependency. Please go to Preferences -> LDAP -> Entry Editor and enable the option "Show operational attributes".
+ Score: [-1.]
+Sorry for the super-slow uptake on this, the new job is using up all of my limited brain resources. 
+ Score: [-1.]
+I opened [HADOOP-3607] to fix a wrong URL, but appart from that I don't there's still references to the old structure.
+ Score: [-1.]
+Please ignore attachment (id=6938).
+ Score: [1.]
+I doubt that Squid is so
+bad at it.
+ Score: [-1.]
+Sorry for the huge delay Fabio.
+ Score: [-1.]
+Sorry, probably a misunderstanding from my side....
+ Score: [-1.]
+Then, to make matters worse, since the mid-1990's I've been offering pro bono advice to non-profit foundations whose members insult me regularly and assume I'm an amateur.  
+ Score: [-1.]
+How on earth is it buggy?
+ Score: [-1.]
+Damn time has flown...
+ Score: [-1.]
+Here is quite bad.
+ Score: [-1.]
+That irritated the hell out of me too, but I didn't realise it was configurable in the .launch file.
+ Score: [-1.]
+Credit, of course, goes to Dick.
+ Score: [-1.]
+Awesome work: this is a great first cut!
+
+ Score: [1.]
+I just hate having no clue what a file is really depending on ;)
+
+ Score: [-1.]
+The eclipse ui was completly stuck, which was similiar to the other experinces.
+ Score: [-1.]
+Sorry Gav
+DONE
+Committed @revision 2487.
+ Score: [-1.]
+An output connector should also have a say in what URLs it will accept.
+ Score: [-1.]
+I'm happy to use it as the standard logo (i.e. website, etc.).
+ Score: [-1.]
+Sorry for the noise..
+ Score: [-1.]
+And boy, hell broke loose ;)
+
+So... the biggest issue I'm facing is indeed with Random sharing across threads.
+ Score: [-1.]
+Turning off hints is basically intended as a "oh shit, something is broken with hints, let's turn it off" switch.
+ Score: [-1.]
+Because, we don't care for this in cases where we there is no node that is down.
+ Score: [-1.]
+Sorry but this is just stupid.
+ Score: [-1.]
+Thanks for reporting, solved!
+ Score: [1.]
+:D
+ Score: [1.]
+Sorry for the wild goose chase!
+ Score: [-1.]
+sorry :)
+ Score: [-1.]
+{quote}
+searcher.getAtomicReader().getSortedDocValues(uniqueKey);
+{quote}
+
+This is a performance killer.
+ Score: [-1.]
+And with a network that
+tolerates almost everything to get a mail somehow in the right place, it is only seldom noticed (or when it is, it is blamed on
+Microsoft.
+ Score: [-1.]
+That is bad.
+ Score: [-1.]
+Thanks Todd, glad to be on board!
+ Score: [1.]
+For some reason, I couldn't upload the straight patch.
+ Score: [-1.]
+sorry.. redeploy patch
+ Score: [-1.]
+First guess: something's getting confused about reversed-ness.
+ Score: [-1.]
+Thanks Andrew, committed in rev.
+ Score: [1.]
+Hi Suran,
+
+The new catalogs_b.patch looks very good.
+ Score: [1.]
+Thanks again for this really great patch, Andrew.
+ Score: [1.]
+Holy hell, I think I found one problem with turning a bignum into anything else.
+ Score: [-1.]
+Sorry for letting you guys wait.
+ Score: [-1.]
+Looks pretty cool. Fresh and minimalist. Love it :-)
+Good work.
+ Score: [1.]
+Sorry if this spam's things, however it's unlikely that I'll work on these.
+ Score: [-1.]
+Sorry typo:  "our part" in place of  "one part" above.
+ Score: [-1.]
+Thanks for sweet patch Erik.
+ Score: [1.]
+I love a solution that's simpler and easier to understand than the original.
+ Score: [1.]
+Thanks for the patch Erik (and Jon)
+ Score: [1.]
+I didn't do that because that seems bad in hive, so I returned "null" from the operation.
+ Score: [-1.]
+The evil NPE strik back !!
+ Score: [-1.]
+Thanks Kathey.
+ Score: [1.]
+Sorry.
+ Score: [-1.]
+If that would be the case, this would be bad design.
+ Score: [-1.]
+Thanks Oliver, that's fixed it. 
+ Score: [1.]
+Sorry,
+I tought I could commit this patch but I did not realize that one of the files is in the framework (and I have not access to it).
+
+ Score: [-1.]
+Fix bad patch
+ Score: [-1.]
+cool, no worries.
+ Score: [1.]
+Took me a few seconds to get it, but then I realized how awesome it is.  
+ Score: [1.]
+PreCommit-HDFS-Build is stuck.
+ Score: [-1.]
+Cool, that's all good news too! Thanks guys. One less on my radar.
+ Score: [1.]
+Thanks Ravi.
+ Score: [1.]
+Sorry, missed this.
+ Score: [-1.]
+Thanks, Oliver!
+ Score: [1.]
+Oh, I'm sorry, I was unclear.
+ Score: [-1.]
+Hey Vikram-- sorry about that, I haven't paid much attention to this issue.
+ Score: [-1.]
+I must have looked at this before my morning coffee..
+ Score: [-1.]
+I've just tested the shiro trunk with karaf-2.2 release and everything works fine :)
+ Score: [1.]
+Doh.
+ Score: [-1.]
+Also, your username was stupidly named and confusing, so I deleted it and created a new one more appropriate.
+ Score: [-1.]
+Will still be stuck in the loop though if can't actually close regions.
+ Score: [-1.]
+If you know of a way, please describe it.
+ Score: [-1.]
+Didn't got the time to try it yet.
+ Score: [-1.]
+Sorry, I took Martin's comment to mean the patch was committed and issue closed, which certainly discarded all the patches the first time around.
+ Score: [-1.]
+It is not yet tested - I ran into strange build problems with APR.
+
+ Score: [-1.]
+Hi Edward
+
+Thanks for spotting it.
+ Score: [1.]
+Sorry to have not spotted this one, and thanks for your care.
+ Score: [-1.]
+Sorry Chris,
+
+I missed it, done !
+ Score: [-1.]
+no, sorry - priorities have been shifted around...
+ Score: [-1.]
+Sorry, that should have said fixed via HADOOP-4980, not 6980.
+ Score: [-1.]
+ah - my bad.
+ Score: [-1.]
+I sure as hell don't want to start attaching models for the sake of detaching them directly afterwards.
+ Score: [-1.]
+s/[~apurtell]/[~lhofhansl]/
+
+Sorry guys.
+ Score: [-1.]
+Pull it back in if you think different.
+ Score: [-1.]
+Thanks Ashutosh and Gunther for your help!
+ Score: [1.]
+Sorry I've been MIA on this issue.
+ Score: [-1.]
+Splitting an existing sub-shard gets stuck up.
+ Score: [-1.]
+
+that's some freaky shit ...
+ Score: [-1.]
+That's weird.
+ Score: [-1.]
+Oh, I didn't consider one flow like after the edit log conversion, immediately #store failed.
+ Score: [-1.]
+Sorry again!
+ Score: [-1.]
+Thanks for the reviews..
+ Score: [1.]
+Ah, too bad.
+ Score: [-1.]
+I screwed up the encoding of the stopwords file (sorry).
+ Score: [-1.]
+Shit, there is an dependency. Please go to Preferences -> LDAP -> Entry Editor and enable the option "Show operational attributes".
+ Score: [-1.]
+Thanks to Fabrizio for the patch.
+ Score: [1.]
+Forgot to add that I also tried this with and without HBASE-5864
+ Score: [-1.]
+Sorry about that, fixed now.
+ Score: [-1.]
+This might be a bug indeed.
+ Score: [-1.]
+This sucks *so much*...
+ Score: [-1.]
+Forget what I made(D8067).
+ Score: [-1.]
+Pull it back in if you think different.
+ Score: [-1.]
+Thanks Tom!
+ Score: [1.]
+Original edited patch was messed up... stupid sed!
+ Score: [-1.]
+:)
+
+I've renamed ComponentColorProperty to be ComponentColorElement and RelationshipAggregation to TwistieAggregation.
+ Score: [1.]
+Thanks for spotting this, fixed at r487519
+ Score: [1.]
+Thanks, Jeff!
+ Score: [1.]
+Wow, that was some bad copy/paste work.
+ Score: [-1.]
+Thanks Tom!
+ Score: [1.]
+This way lies metadata hell.
+ Score: [-1.]
+Igor, sorry it took me so long to get back to this.
+ Score: [-1.]
+It was a pretty stupid idea to use a static array of instances for QuorumOpMonitor.
+ Score: [-1.]
+Awesome stuff Stephen! 
+ Score: [1.]
+Hello George,
+
+The fix looks fine, many thanks!
+ Score: [1.]
+That is a bit too lax I think.
+ Score: [-1.]
+Sorry, should ask first.
+ Score: [-1.]
+What the hell?!
+ Score: [-1.]
+Yep, my bad.
+ Score: [-1.]
+If so, a test that succeeds with errors is confusing as hell...
+ Score: [-1.]
+Sorry about the noise, was trying out the precommit job.
+ Score: [-1.]
+Sorry for the hassle.
+ Score: [-1.]
+When you install a node module globally it goes into /usr/local where you don't have permissions to move shit into unless you sudo.
+ Score: [-1.]
+Cheers,
+
+Ashwin...
+ Score: [-1.]
+Thanks,
+Mayank
+ Score: [1.]
+Cool, will do!  Thanks for the review and good questions... and the whole idea! :)
+ Score: [1.]
+This looks reasonable to me... sucks we have to special case handling of " "...
+ Score: [-1.]
+Thanks Koji!
+ Score: [1.]
+My bad.
+ Score: [-1.]
+Doh!
+ Score: [-1.]
+yup sorry just fixed.
+ Score: [-1.]
+Thank you Brandon.
+ Score: [1.]
+Sorry that I think I missed some discussion in the mailing list.
+ Score: [-1.]
+Sorry guys
+ Score: [-1.]
+The problem is that it builds awt, and that requires some dependencies.
+ Score: [-1.]
+Thank you, guys!
+ Score: [1.]
+Thank you very much for your effort David.
+ Score: [1.]
+I'm an idiot.
+ Score: [-1.]
+Thank you Ravi.
+ Score: [1.]
+Awesome co-op. Thanks, Robert & Mike, for picking this up.
+ Score: [1.]
+Just to clarify... you made the DTPE handle exceptions the same way as CassandraDaemon by updating it to use NBHS instead of CSLS... 
+
+Did you just tell me to go fuck myself?
+ Score: [-1.]
+Filling diags.log is bad mojo, since it's never rotated.
+ Score: [-1.]
+That's weird.
+ Score: [-1.]
+It also happens at the very startup after he has loaded only 3 sstables (hence DataTracker likely have 3 sstables, not a shit load).
+ Score: [-1.]
+My bad.
+ Score: [-1.]
+Thanks, JinJie!
+ Score: [1.]
+Sucks to rush a commit when an issue is under discussion.
+ Score: [-1.]
+Yes, sorry.
+ Score: [-1.]
+Sorry.
+ Score: [-1.]
+I'm a pretty strong -0 on this.
+ Score: [-1.]
+Ha sorry Varun, thanks for the reminder, I will have a look at it soon...
+ Score: [-1.]
+sorry.
+ Score: [-1.]
+Hi Guillaume,
+
+I did not have an answer right away, so I sent you question to Leonard Rosenthol.
+ Score: [-1.]
+Thank you,
++ Harit Himanshu
+
+
+
+ Score: [1.]
+Sorry about the confusion before
+ Score: [-1.]
+Thanks, Tom
+ Score: [1.]
+Cool. sounds good to me.
+ Score: [1.]
+All I'm trying to say is that it's pretty easy to end up in propagation failure hell here or change something else that blows things up for use cases that are not foreseen.
+ Score: [-1.]
+Forgot to mention:
+
+Thanks to Alejandro and his team for pointing this one...
+ Score: [1.]
+Not only it's the first one in my life I'm seeing multiple ways of closing the same thing, it also conceals programming errors.
+ Score: [-1.]
+I want to integrate the sweet sweet logo Andrew crafted.
+ Score: [-1.]
+Don't hate me, just throwing this out there.
+ Score: [-1.]
+But please don't say that my reasoning is bad - because it is not.
+ Score: [-1.]
+Shit, I missed a cast.
+ Score: [-1.]
+I'm very sorry.
+ Score: [-1.]
+Sorry, in rushing to commit I forgot to add author during the commit.
+ Score: [-1.]
+Best regards,
+Richard
+ Score: [1.]
+This is a silly one.
+ Score: [-1.]
+This sucks badly.
+ Score: [-1.]
+I've tested them out and everything is fine.
+ Score: [-1.]
+thanks,
+nandana
+ Score: [1.]
+This is a pretty awful bug.
+ Score: [-1.]
+Hi Sagara,
+
+Thank you very much for looking into this.
+ Score: [1.]
+bq. First of welcome :) Thank you. 
+ Score: [1.]
+What the hell are you waiting for ?
+ Score: [-1.]
+Brilliant feedback, thanks! I'm glad you found the issue, and the solution!
+ Score: [1.]
+Thanks to Mathias Werlitz - sorry for the delay.
+ Score: [-1.]
+Pretty sure this was fixed by the time we released JRuby 1.6.
+ Score: [-1.]
+Well it's me that didn't get the whole point, now i got more, sorry for the noise.
+ Score: [-1.]
+I think it's time to just close this issue.
+ Score: [-1.]
+Damn !
+ Score: [-1.]
+Sorry for the delay.
+ Score: [-1.]
+ahhh sweet, i'm guessing you have an IDE that does this? If the tests pass commit, this kinda crap goes out of date too fast!
+ Score: [-1.]
+Thanks Tony.
+ Score: [1.]
+@Subbu:
+Glad I was able to help.
+ Score: [-1.]
+The problems I was talking about are mostly fixed by [HADOOP-3575] and [HADOOP-3480].
+ Score: [-1.]
+That's pretty unlikely.
+ Score: [-1.]
+Thanks senaka for the patch.
+ Score: [1.]
+But it was not the only issue: we also want to manage priorities between the tasks, but we need to read them to get enough information to make the right priorities.
+
+ Score: [-1.]
+I will try to do more research on it.
+ Score: [-1.]

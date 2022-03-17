@@ -33,6 +33,9 @@ from sklearn.tree import DecisionTreeClassifier
 from nltk.stem.snowball import SnowballStemmer
 from imblearn.over_sampling import SMOTE
 
+import joblib
+import pickle
+
 
 def replace_all(text, dic):
     for i, j in dic.items():
@@ -184,6 +187,8 @@ def handle_negation(comments):
 
 
 def preprocess_text(text):
+    if type(text) == int:
+        text = str(text)
     comments = text.encode('ascii', 'ignore')
     comments = expand_contractions(comments)
     comments = remove_url(comments)
@@ -206,6 +211,7 @@ class SentiCR:
             self.training_data = self.read_data_from_oracle()
         else:
             self.training_data = training_data
+
         self.model = self.create_model_from_training_data()
 
     def get_classifier(self):
@@ -249,9 +255,10 @@ class SentiCR:
         Y_train = np.array(training_ratings)
 
         # Apply SMOTE to improve ratio of the minority class
-        smote_model = SMOTE(sampling_strategy=0.5,
+        smote_model = SMOTE(sampling_strategy={-1: 2500, 1: 2500},
                             random_state=None, k_neighbors=15, n_jobs=1)
 
+        print(np.unique(Y_train))
         X_resampled, Y_resampled = smote_model.fit_resample(X_train, Y_train)
 
         model = self.get_classifier()
@@ -260,20 +267,31 @@ class SentiCR:
         return model
 
     def read_data_from_oracle(self):
-        workbook = open_workbook("oracle.xls")
+        workbook = open_workbook(
+            "Combined.train.xls")
         sheet = workbook.sheet_by_index(0)
         oracle_data = []
-        print("Reading data from oracle..")
+        print("Reading data from Combined.train.xls ..")
         for cell_num in range(0, sheet.nrows):
             comments = SentimentData(sheet.cell(
                 cell_num, 0).value, sheet.cell(cell_num, 1).value)
             oracle_data.append(comments)
         return oracle_data
 
-    def get_sentiment_polarity(self, text):
+    def get_sentiment_polarity(self, text, saved_model=None, saved_vectorizer=None):
         comment = preprocess_text(text)
-        feature_vector = self.vectorizer.transform([comment]).toarray()
-        sentiment_class = self.model.predict(feature_vector)
+
+        if saved_vectorizer is None:
+            feature_vector = self.vectorizer.transform([comment]).toarray()
+        else:
+            self.vectorizer = pickle.load(open(saved_vectorizer, "rb"))
+            feature_vector = self.vectorizer.transform([comment]).toarray()
+
+        if saved_model is None:
+            sentiment_class = self.model.predict(feature_vector)
+        else:
+            self.model = joblib.load(saved_model)
+            sentiment_class = self.model.predict(feature_vector)
         return sentiment_class
 
     def get_sentiment_polarity_collection(self, texts):
@@ -286,8 +304,12 @@ class SentiCR:
 
         return predictions
 
+    def save_model(self, model_name, vect_name):
+        joblib.dump(self.model, model_name)
+        pickle.dump(self.vectorizer, open(vect_name, "wb"))
 
-def ten_fold_cross_validation(dataset, ALGO):
+
+def ten_fold_cross_validation(dataset, ALGO, k):
     kf = KFold(n_splits=10)
 
     run_precision = []
@@ -303,15 +325,18 @@ def ten_fold_cross_validation(dataset, ALGO):
         print("Using split-"+str(count)+" as test data..")
         classifier_model = SentiCR(algo=ALGO, training_data=dataset[train])
 
+        classifier_model.save_model(
+            f"models/model_{k}_{count}.sav", f"vectorizers/vectorizer_{k}_{count}.sav")
+
         test_comments = [comments.text for comments in dataset[test]]
         test_ratings = [comments.rating for comments in dataset[test]]
 
         pred = classifier_model.get_sentiment_polarity_collection(
             test_comments)
 
-        precision = precision_score(test_ratings, pred, pos_label=-1)
-        recall = recall_score(test_ratings, pred, pos_label=-1)
-        f1score = f1_score(test_ratings, pred, pos_label=-1)
+        precision = precision_score(test_ratings, pred, average='weighted')
+        recall = recall_score(test_ratings, pred, average='weighted')
+        f1score = f1_score(test_ratings, pred, average='weighted')
         accuracy = accuracy_score(test_ratings, pred)
 
         run_accuracy.append(accuracy)
@@ -341,7 +366,8 @@ if __name__ == '__main__':
     print("Algrithm: " + ALGO)
     print("Repeat: " + str(REPEAT))
 
-    workbook = open_workbook("oracle.xlsx")
+    workbook = open_workbook(
+        "Combined.train.xls")
     sheet = workbook.sheet_by_index(0)
     oracle_data = []
 
@@ -363,7 +389,7 @@ if __name__ == '__main__':
         print(".............................")
         print("Run# {}".format(k))
         (precision, recall, f1score, accuracy) = ten_fold_cross_validation(
-            oracle_data, ALGO)
+            oracle_data, ALGO, k)
         Precision.append(precision)
         Recall.append(recall)
         Fmean.append(f1score)
